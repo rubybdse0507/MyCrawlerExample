@@ -26,11 +26,8 @@ public class FacebookExample {
 		// search?fields=name,id,likes,talking_about_count&limit=1000&q=靠北&type=page
 		String uri = 
 				"https://graph.facebook.com/v2.5"
-				+ "/search?q=%E9%9D%A0%E5%8C%97&type=page&limit=1000&fields=name,id,likes,talking_about_count"
-				+ "&access_token=EAACEdEose0cBAMzLyMlMxZAY73J1TBiZAHJhrF8du8fLhMmGYrUA3W9ezJDQk9oZAa07o4F2drZAL2k1cCtgdpl5LZClZCo6733A3xddNbjSAoTxEZBWY4rKnzLWTU3I0KMgT0qsw6eIRfdzg9RZCIkuTZCtGZCyzct657fywQpsFCNAZDZD";
-
-
-
+				+ "/search?q=%e5%a5%bd%e5%b8%82%e5%a4%9a%0d%0a&type=page&limit=1000&fields=name,id,likes,talking_about_count"
+				+ "&access_token=EAACEdEose0cBAFKRjcPz9BbZAKsNDgneUSZC6lsBYuZCpdf6Fs4yfoPK3dkmbUufJ6fk8VNQhQd2QMrEXwtaQsuKCf67s2gYgNlSHZCE9CY75DVLZBF4SZBIVtv88LDPvu1YGfGxEIPlrAkUpo2F8HsHKRH9pkHZCoVzj2c84dOUtibyqcO5kI5egZCizC7ZBETcZD";
 		// Jsoup select 後回傳的是  Elements 物件
 //		[data sample]
 //		----
