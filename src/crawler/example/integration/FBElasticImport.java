@@ -41,7 +41,7 @@ public class FBElasticImport {
                                 .select("data:has(created_time)");
 
                 System.out.println(elems.size());
-                // 遂筆處理
+                // 遂筆處理.
                 for (Element data : elems) {
 
 
